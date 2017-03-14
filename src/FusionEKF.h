@@ -38,6 +38,10 @@ private:
   // previous timestamp
   long previous_timestamp_;
 
+  float noise_ax_;
+
+  float noise_ay_;
+
   // tool object used to compute Jacobian and RMSE
   Tools tools;
   Eigen::MatrixXd R_laser_;
